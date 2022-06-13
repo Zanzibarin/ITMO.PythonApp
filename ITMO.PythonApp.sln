@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.2.1_Strings", "ITMO.PyApp.2.1_Strings\ITMO.PyApp.2.1_Strings.pyproj", "{0CA51E86-F082-418C-AB7D-1F5A7AFBCF96}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.2.2_Digits", "ITMO.PyApp.2.2_Digits\ITMO.PyApp.2.2_Digits.pyproj", "{15D9C2E3-F168-4E6A-B5B0-0AC303373CC0}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.2.3_Strings_Format", "ITMO.PyApp.2.3_Strings_Format\ITMO.PyApp.2.3_Strings_Format.pyproj", "{18CB3DB2-2E13-4C85-A707-B71FA59D0D5E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.2.4_Lists", "ITMO.PyApp.2.4_Lists\ITMO.PyApp.2.4_Lists.pyproj", "{4BDF3F0A-33DF-4173-8E26-FEC79F1C2397}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.2.5_Tuples", "ITMO.PyApp.2.5_Tuples\ITMO.PyApp.2.5_Tuples.pyproj", "{4603F3A5-FCB3-4FD0-BD4D-A6FFD97D9BB0}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.2.6_Dicts", "ITMO.PyApp.2.6_Dicts\ITMO.PyApp.2.6_Dicts.pyproj", "{8E72A5E4-FC07-4C58-9DA3-CCE33C393096}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.2.7_Data_Nesting", "ITMO.PyApp.2.7_Data_Nesting\ITMO.PyApp.2.7_Data_Nesting.pyproj", "{A304664B-703C-4DCE-834D-DD9457C478ED}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.1_Graph", "ITMO.PyApp.1_Graph\ITMO.PyApp.1_Graph.pyproj", "{39F83D7B-BF77-46F9-8BAA-AF63F23F9A45}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.4_Cicles", "ITMO.PyApp.4_Cicles\ITMO.PyApp.4_Cicles.pyproj", "{639FCF4F-F6FD-43ED-B2EA-907B782E0101}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.3_Modules", "ITMO.PyApp.3_Modules\ITMO.PyApp.3_Modules.pyproj", "{B4094615-F4F8-42AE-904C-7863C18BE22B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.5_Functions", "ITMO.PyApp.5_Functions\ITMO.PyApp.5_Functions.pyproj", "{8C413B4D-1F2A-4050-937B-9F49E6B784D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CA51E86-F082-418C-AB7D-1F5A7AFBCF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA51E86-F082-418C-AB7D-1F5A7AFBCF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D9C2E3-F168-4E6A-B5B0-0AC303373CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D9C2E3-F168-4E6A-B5B0-0AC303373CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CB3DB2-2E13-4C85-A707-B71FA59D0D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CB3DB2-2E13-4C85-A707-B71FA59D0D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDF3F0A-33DF-4173-8E26-FEC79F1C2397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDF3F0A-33DF-4173-8E26-FEC79F1C2397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4603F3A5-FCB3-4FD0-BD4D-A6FFD97D9BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4603F3A5-FCB3-4FD0-BD4D-A6FFD97D9BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E72A5E4-FC07-4C58-9DA3-CCE33C393096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E72A5E4-FC07-4C58-9DA3-CCE33C393096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A304664B-703C-4DCE-834D-DD9457C478ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A304664B-703C-4DCE-834D-DD9457C478ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F83D7B-BF77-46F9-8BAA-AF63F23F9A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F83D7B-BF77-46F9-8BAA-AF63F23F9A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{639FCF4F-F6FD-43ED-B2EA-907B782E0101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{639FCF4F-F6FD-43ED-B2EA-907B782E0101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4094615-F4F8-42AE-904C-7863C18BE22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4094615-F4F8-42AE-904C-7863C18BE22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C413B4D-1F2A-4050-937B-9F49E6B784D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C413B4D-1F2A-4050-937B-9F49E6B784D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F871A3A8-612E-4DCA-8C15-71FCE50A4C69}
+	EndGlobalSection
+EndGlobal
