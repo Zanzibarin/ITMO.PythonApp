@@ -25,6 +25,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.3_Modules", "ITM
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.5_Functions", "ITMO.PyApp.5_Functions\ITMO.PyApp.5_Functions.pyproj", "{8C413B4D-1F2A-4050-937B-9F49E6B784D9}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ITMO.PyApp.Final", "ITMO.PyApp.Final\ITMO.PyApp.Final.pyproj", "{0D6C70E4-1A05-4870-9D01-A2B4CC9493BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,8 @@ Global
 		{B4094615-F4F8-42AE-904C-7863C18BE22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C413B4D-1F2A-4050-937B-9F49E6B784D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C413B4D-1F2A-4050-937B-9F49E6B784D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6C70E4-1A05-4870-9D01-A2B4CC9493BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6C70E4-1A05-4870-9D01-A2B4CC9493BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
