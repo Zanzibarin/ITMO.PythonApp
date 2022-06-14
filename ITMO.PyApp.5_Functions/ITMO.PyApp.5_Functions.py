@@ -1,10 +1,8 @@
-# -*- coding: cp1251 -*-
-print("Практическое занятие 5. Применение функций")
+print("Practice 5. Functions")
 
-
-#Ввод имен игроков
+#Players
 from Names import*
 
-#Моделирование бросания кубиков и определение победителя
+#Game process
 from Process import Game
 Game (igrok1, igrok2)

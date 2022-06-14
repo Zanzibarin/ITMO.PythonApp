@@ -1,4 +1,3 @@
-# -*- coding: cp1251 -*-
 print('List input and output')
 print('')
 

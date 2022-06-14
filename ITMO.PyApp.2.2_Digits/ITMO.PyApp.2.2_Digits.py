@@ -1,41 +1,40 @@
-# -*- coding: cp1251 -*-
-print("Практическое занятие 2. Работа с данными")
-print("РАБОТА С ЧИСЛАМИ")
+print("Practice 2. Data processing")
+print("Digits")
 print('')
 
-print("----- Задача 02 -----")
+print("----- Task 01 -----")
 a = int(16)
 b = int(8)
 c = int(a/b)
-print("Операция деления целого числа 16 на 8")
+print("Devisin 16 and 8")
 print(c)
 
 d = int(b/a)
-print("Операция деления целого числа 8 на 16")
+print("Devisin 8 and 16")
 print(d)
 
 e = int(b%a)
-print("Операция взятия остатка целого числа 8 от 16")
+print("The remainder from devision of digits 8 and 16")
 print(e)
 
 f = int(a%b)
-print("Операция взятия остатка целого числа 16 от 8")
+print("The remainder from devision of digits 16 and 8")
 print(f)
 
 g = int(a ** b)
-print("Операция возведения числа 16 в степень 8")
+print("Exponentiation into 8 of digit 16")
 print(g)
 print('')
 
-print("----- Задача 03 -----")
-#param = "string" + 15 Будет ошибка
-#Решение - преобразование к строке
+print("----- Task 03 -----")
+#param = "string" + 15 Error
+#Solution - conversion into string
 param = "string" + str(15)
 print(param)
 print('')
 
-print("----- Задача 04 -----")
-print("Сложение вводимых чисел")
+print("----- Task 04 -----")
+print("Sum of input digits")
 n1 = input("Enter the first number: ")
 n2 = input("Enter the second number: ")
 n3 = float(n1) + float(n2)

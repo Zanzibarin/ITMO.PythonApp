@@ -1,3 +1,2 @@
-# -*- coding: cp1251 -*-
-igrok1 = input('¬ведите им€ 1-го игрока: ')
-igrok2 = input('¬ведите им€ 2-го игрока: ')
+igrok1 = input('First Player name: ')
+igrok2 = input('Second player name: ')

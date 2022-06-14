@@ -1,4 +1,3 @@
-# -*- coding: cp1251 -*-
 from random import randint
 import time
 
@@ -12,45 +11,42 @@ def Game (igrok1, igrok2):
 
     for i in range(5):
 
-        #Моделирование бросания кубика 1-м игроком
         print('')
-        print('Раунд', i+1)
-        print('Кубик бросает', igrok1)
+        print('Round', i+1)
+        print(igrok1 ,'rolls a dise')
         time.sleep(1)
         n1 = randint (1, 6)
-        print('Выпало число', n1)
-        sum_of_points1 += n1           # суммируем очки
-        print('Сумма очков игрока', igrok1, 'после попытки №', i+1, 'равна', sum_of_points1)
+        print('Roll result', n1)
+        sum_of_points1 += n1   
+        print('Total score', igrok1, 'try number', i+1, 'is', sum_of_points1)
 
-        # моделирование бросания кубика 2-м игроком
-        print('Кубик бросает', igrok2)
+        print(igrok2 ,'rolls a dise')
         time.sleep(1)
         n2 = randint (1, 6)
-        print('Выпало число', n2)
+        print('Roll result', n2)
         sum_of_points2 += n2           
-        print('Сумма очков игрока', igrok2, 'после попытки №', i+1, 'равна', sum_of_points2)
+        print('Total score', igrok2, 'try number', i+1, 'is', sum_of_points2)
 
     if n1 > n2:
         wins_counter1 +=1
-        print('В этом раунде выиграл', igrok1)
+        print('This round is after player', igrok1)
     elif n1 < n2:
         wins_counter2 +=1
-        print('В этом раунде выиграл', igrok2)
+        print('This round is after player', igrok2)
     else:
-        print('Ничья')
+        print('Draw')
 
-    # Определение победителя
     if wins_counter1 > wins_counter2:
         print('')
-        print('Победил', igrok1)
-        print('Количество побед', wins_counter1)
-        print('Сумма очков', sum_of_points1)
+        print('The winner is', igrok1)
+        print('Total wins', wins_counter1)
+        print('Total score', sum_of_points1)
     elif wins_counter2 > wins_counter1:
         print('')
-        print('Победил', igrok2)
-        print('Количество побед', wins_counter2)
-        print('Сумма очков', sum_of_points2)
+        print('The winner is', igrok2)
+        print('Total wins', wins_counter2)
+        print('Total score', sum_of_points2)
     else:
         print('')
-        print('Ничья')
+        print('Draw')
     return

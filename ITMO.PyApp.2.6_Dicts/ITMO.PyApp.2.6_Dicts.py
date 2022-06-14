@@ -1,26 +1,26 @@
 # -*- coding: cp1251 -*-
-print("Практическое занятие 2. Работа с данными")
-print("СЛОВАРИ")
+print("Practice 2. Data processing")
+print("Dictionaries")
 print('')
 
-print("----- Задача 01 / 02 -----")
+print("----- Task 01 / 02 -----")
 D = {'food': 'Apple', 'quantity': 4, 'color': 'Red'}
 print(D['food'])
 print(D['quantity'] + 10)
 print(D['color'])
 print('')
 
-print("----- Задача 03 -----")
+print("----- Task 03 -----")
 dp = {}
-print(dp, " - Пустой словарь")
-name = str(input("Введите имя: "))
-age = int(input("Введите возраст: "))
+print(dp, " - Empty dictionary")
+name = str(input("Input name: "))
+age = int(input("Input age: "))
 dp[name] = age
-name = str(input("Введите имя: "))
-age = int(input("Введите возраст: "))
+name = str(input("Input name: "))
+age = int(input("Input age: "))
 dp[name] = age
-name = str(input("Введите имя: "))
-age = int(input("Введите возраст: "))
+name = str(input("Input name: "))
+age = int(input("Input age: "))
 dp[name] = age
-print(dp, " - Заполненный словарь")
+print(dp, " - Cmpleted dictionary")
 print('')
